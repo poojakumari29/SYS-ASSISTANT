@@ -23,11 +23,11 @@ while True:
 		print("launching chrome for you")
 		os.system("chrome")
 	        
-	elif ("DO NOT" in p) or ("NOT" in p) or ("DON'T" in p) or ("DONT" in p) or ("dont" in p) or ("do not" in p) or ("no need to" in p) and (("RUN" in p) or ("run" in p) ("launch" in p) or ("LAUNCH" in p) or ("firefox" in p) or ("mozillafirefox" in p) or ("mozilla" in p) or ("MOZILLAFIREFOX" in p)):
+	elif ("DO NOT" in p) or ("NOT" in p) or ("DON'T" in p) or ("DONT" in p) or ("dont" in p) or ("do not" in p) or ("no need to" in p) and (("RUN" in p) or ("run" in p) ("launch" in p) or ("LAUNCH" in p) or ("Internet Explore" in p) or ("Internet" in p)):
 		print("okay")
 
  
-	elif (("launch" in p) or ("LAUNCH" in p) or ("run" in p) or ("RUN" in p) or ("EXECUTE" in p) or("execute" in p) or ("open" in p)) and (("firefox" in p) or ("mozillafirefox" in p) or ("browser" in p) or ("BROWSER" in p) or ("Internet Explore" in p)):
+	elif (("launch" in p) or ("LAUNCH" in p) or ("run" in p) or ("RUN" in p) or ("EXECUTE" in p) or("execute" in p) or ("open" in p)) and (("browser" in p) or ("BROWSER" in p) or ("Internet Explore" in p)):
 		pyttsx3.speak("launching Internet Explore for you")
 		print("launching Internet Explore for you")
 		os.system("iexplore")

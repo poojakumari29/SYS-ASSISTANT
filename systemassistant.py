@@ -7,7 +7,7 @@ print("THE TOOLS AVAILABLE IN YOUR PC ARE : ")
 print("1.) Chrome")
 print("2.) Window Media Player")
 print("3.) Notepad")
-print("4.) Mozilla FireFox")
+print("4.) Internet Explorer")
 
 while True:
 	print("HOW MAY I HEPL YOU !: "  , end='')
@@ -27,10 +27,10 @@ while True:
 		print("okay")
 
  
-	elif (("launch" in p) or ("LAUNCH" in p) or ("run" in p) or ("RUN" in p) or ("EXECUTE" in p) or("execute" in p) or ("open" in p)) and (("firefox" in p) or ("mozillafirefox" in p) or ("browser" in p) or ("BROWSER" in p) or ("MOZILLAFIREFOX" in p) or ("MOZILLA")):
-		pyttsx3.speak("launching MOZILLA FIREFOX for you")
-		print("launching mozilla firefox for you")
-		os.system("chrome")
+	elif (("launch" in p) or ("LAUNCH" in p) or ("run" in p) or ("RUN" in p) or ("EXECUTE" in p) or("execute" in p) or ("open" in p)) and (("firefox" in p) or ("mozillafirefox" in p) or ("browser" in p) or ("BROWSER" in p) or ("Internet Explore" in p)):
+		pyttsx3.speak("launching Internet Explore for you")
+		print("launching Internet Explore for you")
+		os.system("iexplore")
         
 
 

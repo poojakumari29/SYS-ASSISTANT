@@ -10,7 +10,7 @@ print("3.) Notepad")
 print("4.) Internet Explorer")
 
 while True:
-	print("HOW MAY I HEPL YOU !: "  , end='')
+	print("HOW MAY I HELP YOU !: "  , end='')
 	p = input()
 	
 

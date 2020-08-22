@@ -30,7 +30,7 @@ while True:
 	elif (("launch" in p) or ("LAUNCH" in p) or ("run" in p) or ("RUN" in p) or ("EXECUTE" in p) or("execute" in p) or ("open" in p)) and (("firefox" in p) or ("mozillafirefox" in p) or ("browser" in p) or ("BROWSER" in p) or ("MOZILLAFIREFOX" in p) or ("MOZILLA")):
 		pyttsx3.speak("launching MOZILLA FIREFOX for you")
 		print("launching mozilla firefox for you")
-		os.system("chrome")
+		os.system("mozillafirefox")
         
 
 
